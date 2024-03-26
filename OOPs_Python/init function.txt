@@ -1,0 +1,10 @@
+class <ClassName>:
+	def __init__(self):
+		pass
+	
+# init is a constructor (C++ term) which initializes attributes for rest of the methods used in a class
+
+class instruct:
+    def __init__(self, (instructor_name), (instructor_address)):
+           self.(name) = instructor_name
+           self.(address) = instructor_address

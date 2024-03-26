@@ -1,0 +1,30 @@
+
+# Install airflow using pip
+pip install "apache-airflow[celery]==2.8.0" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.0/constraints-3.8.txt"
+pip install "apache-airflow==2.8.0"     -google==10.1.1
+
+# No constraint: https://raw.githubusercontent.com/apache/airflow/constraints-2.8.0/constraints-no-providers-3.8.txt
+AIRFLOW_VERSION=2.7.0
+PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
+pip install "apache-airflow==2.7.0" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.0/constraints-no-providers-3.10.txt"
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+grpcio-status 1.60.0 requires grpcio>=1.60.0, but you have grpcio 1.57.0 which is incompatible.
+opentelemetry-exporter-otlp-proto-common 1.22.0 requires opentelemetry-proto==1.22.0, but you have opentelemetry-proto 1.15.0 which is incompatible.
+pyopenssl 23.3.0 requires cryptography<42,>=41.0.5, but you have cryptography 41.0.3 which is incompatible.
+
+
+pip install grpcio==1.60.0
+pip install opentelemetry-proto==1.22.0
+pip install opentelemetry-exporter-otlp-proto-grpc=1.22.0
+
+
+pip check
+
+pip freeze > my-constraints.txt
+
+
+# RUN airflow
+python -m airflow
+

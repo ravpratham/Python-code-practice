@@ -1,0 +1,21 @@
+instructor:
+	what does a class have: name,address
+							
+							has_book = True 	#variables (attributes)
+							
+							has_laptop = True	#variables (attributes)
+							
+	
+	what does a class do: def teach():			#functions (methods)
+						  
+						  def test():			#function  (methods)
+						  
+						  
+instructor - Jiya
+			  or
+		   - Payal
+			  or
+		   - Riya
+
+Instructor contains user (for example - Riya,Payal,Jiya). Their function is to teach and to take tests
+Here, Instructor becomes a class and users are objects which have some tasks or methods to do.

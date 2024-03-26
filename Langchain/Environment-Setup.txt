@@ -1,0 +1,25 @@
+# Create a virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+.venv\Scripts\activate
+
+# Install required packages using pip
+pip install langchain
+pip install langchain-cli
+pip install openai
+
+
+# Check all dependenencies are intact
+pip check
+
+# Save all dependencies in a file
+pip freeze > requirements.txt
+
+# Reinstall all depdencies from requirements.txt
+pip install -r requirements.txt
+
+OpenAI
+User Name: Pratham Rav
+Email: ravpratham223@gmail.com
+API Key: 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

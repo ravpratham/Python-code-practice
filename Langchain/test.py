@@ -3,7 +3,7 @@ import langchain
 from langchain import HuggingFaceHub
 
 def HuggingFaceTest(query):
-    os.environ["HUGGINGFACEHUB_API_TOKEN"]   = "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"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
     llm_huggingface = HuggingFaceHub(repo_id = "google/flan-t5-large",model_kwargs={"temperature":0.5 ,"max_length":64})
     query =  "translate this sentence to german : i am pratham"

@@ -12,12 +12,14 @@ pip install openai
 
 # Check all dependenencies are intact
 pip check
+output - "No broken requirements found."
 
 # Save all dependencies in a file
 pip freeze > requirements.txt
 
 # Reinstall all depdencies from requirements.txt
 pip install -r requirements.txt
+
 
 OpenAI
 User Name: Pratham Rav

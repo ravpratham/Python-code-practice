@@ -44,14 +44,18 @@ OUTPUT
     September 05, 2024 - 22:24:23
     Django version 5.1.1, using settings 'mysite.settings'
     Starting development server at http://127.0.0.1:8000/
-    Quit the server with CTRL-BREAK.
+    Quit the server with CTRL-C.
 
-<h3>Ignore the warning about unapplied database migrations for now.</h3>
+<h3>Ignore the warning about un-applied database migrations for now.</h3>
 <br/>
 
 <h4>Now that the server’s running, visit http://127.0.0.1:8000/ with your web browser. You’ll see a “Congratulations!” page, with a rocket taking off. It worked!</h4>
 
     http://127.0.0.1:8000/
+
+<li>To create your app, make sure you’re in the same directory as manage.py and type this command:</li>
+
+    python manage.py startapp polls
 
 <h3>For more information visit the below url
 

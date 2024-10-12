@@ -14,3 +14,12 @@
     pip install scikit-learn
     pip install matplotlib
 
+
+<h1>Logistic Regression</h1>
+<hr>
+<h4>Logistic regression is a data analysis technique that uses mathematics to find the relationships between two data factors. It then uses this relationship to predict the value of one of those factors based on the other. The prediction usually has a finite number of outcomes, like yes or no.</h4>
+
+<li>train_test_split - it divides the program into two methods which is training the model and then testing it</li>
+<li>Logistic Regression - classification model</li>
+<li>Accuracy Score - it will tell the accuracy of the model</li>
+<p> rest of the libraries are listed in clustering modeling if not listed here </p> 

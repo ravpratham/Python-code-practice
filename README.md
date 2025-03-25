@@ -1,2 +1,3 @@
 # Python-code-practice
- Learnt some important concepts in Python. For example lambda function
+ In this library i update those topics which i encounter in my daily life or learn on regular basis
+ 

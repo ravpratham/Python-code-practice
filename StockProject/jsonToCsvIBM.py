@@ -59,7 +59,7 @@ def json_to_csv(data, output_filename):
 
 
 def main():
-    API_KEY = 'VLSN7KNUCFPWLEFO'
+    API_KEY = 'KM0NEKE49Y5BJI52'
     # You can change the stock symbol as needed
     SYMBOL = 'IBM'  # Example stock symbol
 
